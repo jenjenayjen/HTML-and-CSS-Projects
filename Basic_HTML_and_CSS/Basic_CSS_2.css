@@ -1,0 +1,12 @@
+/* Comments here */
+h1 {
+	text-shadow: 2px 2px;
+}
+
+p {
+	color: purple;
+	background: black;
+	font-weight: italic;
+	text-align: center;
+}
+

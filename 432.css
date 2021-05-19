@@ -1,0 +1,139 @@
+    .navbar {
+        overflow: hidden;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+    }
+    
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .navbar a:hover {
+        background: #fff;
+        color: black;
+    }
+    
+    img {
+        display: block;
+        width: 100%;
+    }
+    
+    img:hover {}
+    
+    .container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        position: relative;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px dotted gray;
+        border-radius: 50px;
+        overflow: hidden;
+    }
+    
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        color: white;
+    }
+    
+    .container:hover .overlay {
+        opacity: 1;
+    }
+    
+    .container:hover img {
+        filter: invert(100);
+    }
+    
+    .row {
+        display: flex;
+    }
+    
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .column {
+        flex: 50%;
+        float: left;
+        width: 50%;
+        background-color: #ababab;
+        color: #fff;
+        padding: 10px;
+        height: 300px;
+    }
+    
+    p:hover {
+        background-color: slategray;
+        color: antiquewhite;
+        text-align: center;
+    }
+    
+    footer {
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    table,
+    th,
+    td {
+        border: 1px dashed black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    table {
+        margin: 30px auto;
+    }
+    
+    td {
+        padding: 50px;
+    }
+    
+    th {
+        background-color: black;
+        color: white;
+    }
+    
+    video {
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    @media screen and (max-width:600px) {
+        html {
+            background-color: peachpuff;
+        }
+    }
