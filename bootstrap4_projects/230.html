@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Basic Bootstrap Template</title>
+    <!-- Bootstrap CSS file -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- JS files: jQuery first, then Bootstrap JS -->
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style=" background-color: #681d85; ">
+        <a href="# " class="navbar-brand ">Brand</a>
+        <button type="button " class="navbar-toggler " data-toggle="collapse " data-target="#navbarCollapse ">
+        <span class="navbar-toggler-icon "></span>
+    </button>
+
+        <div class="collapse navbar-collapse " id="navbarCollapse ">
+            <div class="navbar-nav ">
+                <a href="# " class="nav-item nav-link active ">Home</a>
+                <a href="# " class="nav-item nav-link ">About</a>
+                <a href="# " class="nav-item nav-link ">Products</a>
+            </div>
+            <form class="form-inline ml-auto ">
+                <input type="text " class="form-control mr-sm-2 " placeholder="Search ">
+                <button type="submit " class="btn btn-outline-light ">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!--navbar end-->
+
+    <!--header-->
+    <div class=" mx-auto">
+        <h1 class="my-5" style="background-color:#b5b41d;  text-align: center;color:white;">Welcome</h1>
+    </div>
+    <!--card-->
+
+    <div class="mx-2 card-deck">
+        <div class="card" style="background-color:#b51d6a;">
+            <img src="https://i.imgur.com/lfYseFPb.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" style="color:white;">Card title</h5>
+                <p class="card-text" style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+        <div class="card" style="background-color:#b51d6a;">
+            <img src="https://i.imgur.com/2EFBWBWb.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" style="color:white;">Card title</h5>
+                <p class="card-text" style="color:white;"> Vestibulum id metus ac nisl bibendum nibh scelerisque non purus in suspendisse.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+        <div class="card" style="background-color:#b51d6a;">
+            <img src="https://i.imgur.com/6VRL1yfb.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" style="color:white;">Card title</h5>
+                <p class="card-text" style="color:white;">Pulvinar leo id risus enim. Bibendum varius tincidunt pellentesque malesuada in.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+    </div>
+
+    <!--card end-->
+    <!--footer-->
+    <footer class="fixed-bottom" style="text-align: center;">Images from Imgur&copy;</footer>
+    <!--footer end-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js "></script>
+</body>
+
+</html>
